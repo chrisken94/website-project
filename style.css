@@ -1,0 +1,68 @@
+body {
+    font-family: 'Comic Neue';
+    background: url(congruent_pentagon/congruent_pentagon/congruent_pentagon.png);
+}
+
+.font1 {
+    color: honeydew;
+}
+
+.footer1 {
+    padding: 20px;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.navbar {
+    border-radius: 20px;
+}
+
+.title1 {
+    padding: 250px;
+}
+
+.nav1 {
+    margin-bottom: 20px;
+}
+.map1 {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  /* -webkit-backface-visibility: hidden; */
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: 550px;
+  /* float: left; */
+  width: 50%;
+  border-radius: 20px;
+  margin: auto;
+  }
